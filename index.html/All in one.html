@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>All In One - Useful Websites</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* RED BACKGROUND */
+     body {
+    background: linear-gradient(
+        135deg,
+        #f32602,
+        #e63003,
+        #ee0707
+    );
+    color: #FFFFFF;
+}  /* HEADER */
+        header {
+            text-align: center;
+            padding: 40px 20px 25px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        header p {
+            color: #ffe5e5;
+            font-size: 17px;
+        }
+
+        /* SECTION */
+        .section {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            border-left: 5px solid #ffffff;
+            padding-left: 12px;
+            font-size: 25px;
+            color: #ffffff;
+        }
+
+        /* APP CONTAINER */
+        .app-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+        }
+
+        /* APP CARD */
+        .app-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.30);
+            border-radius: 18px;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .app-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        /* APP IMAGE */
+        .app-card img {
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
+            margin-bottom: 12px;
+            transition: 0.3s;
+        }
+
+        .app-card:hover img {
+            transform: scale(1.12);
+        }
+
+        .app-card h3 {
+            font-size: 17px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 20px;
+            background: rgba(234, 6, 6, 0.752);
+            color: #9de808;
+        }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            .app-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .app-card {
+                padding: 15px;
+            }
+
+            .app-card img {
+                width: 65px;
+                height: 65px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <h1>🌐 All In One</h1>
+        <p>All Important Websites & Apps in One Place</p>
+    </header>
+
+
+    <!-- GOOGLE -->
+
+    <div class="section">
+
+        <h2>🔵 Google & Important</h2>
+
+        <div class="app-container">
+
+            <a href="https://www.google.com/" target="_blank" class="app-card">
+                <img src="Google.png" alt="Google">
+                <h3>Google</h3>
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" class="app-card">
+                <img src="youtube.png" alt="YouTube">
+                <h3>YouTube</h3>
+            </a>
+
+            <a href="https://play.google.com/" target="_blank" class="app-card">
+                <img src="playstore.png" alt="Play Store">
+                <h3>Play Store</h3>
+            </a>
+
+            <a href="https://www.google.com/maps/" target="_blank" class="app-card">
+                <img src="maps.png" alt="Google Maps">
+                <h3>Google Maps</h3>
+            </a>
+
+            <a href="https://calendar.google.com/" target="_blank" class="app-card">
+                <img src="calendar.png" alt="Google Calendar">
+                <h3>Calendar</h3>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- SOCIAL MEDIA -->
+
+    <div class="section">
+
+        <h2>📱 Social Media</h2>
+
+        <div class="app-container">
+
+            <a href="https://www.instagram.com/" target="_blank" class="app-card">
+                <img src="instagram.png" alt="Instagram">
+                <h3>Instagram</h3>
+            </a>
+
+            <a href="https://web.whatsapp.com/" target="_blank" class="app-card">
+                <img src="whatsapp.png" alt="WhatsApp">
+                <h3>WhatsApp</h3>
+            </a>
+
+            <a href="https://web.telegram.org/" target="_blank" class="app-card">
+                <img src="Telegram.png" alt="Telegram">
+                <h3>Telegram</h3>
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" class="app-card">
+                <img src="Linkedin.png" alt="LinkedIn">
+                <h3>LinkedIn</h3>
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank" class="app-card">
+                <img src="Facebook.png" alt="Facebook">
+                <h3>Facebook</h3>
+            </a>
+
+            <a href="https://x.com/" target="_blank" class="app-card">
+                <img src="Twitter.png" alt="Twitter / X">
+                <h3>Twitter / X</h3>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- AI -->
+
+    <div class="section">
+
+        <h2>🤖 AI Tools</h2>
+
+        <div class="app-container">
+
+            <a href="https://chatgpt.com/" target="_blank" class="app-card">
+                <img src="Chatgpt.png" alt="ChatGPT">
+                <h3>ChatGPT</h3>
+            </a>
+
+            <a href="https://gemini.google.com/" target="_blank" class="app-card">
+                <img src="Gimini.png" alt="Gemini">
+                <h3>Google Gemini</h3>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ENTERTAINMENT -->
+
+    <div class="section">
+
+        <h2>🎬 Entertainment</h2>
+
+        <div class="app-container">
+
+            <a href="https://open.spotify.com/" target="_blank" class="app-card">
+                <img src="spotify.png" alt="Spotify">
+                <h3>Spotify</h3>
+            </a>
+
+            <a href="https://www.netflix.com/" target="_blank" class="app-card">
+                <img src="Netflix.png" alt="Netflix">
+                <h3>Netflix</h3>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2026 All In One Website | Made by ❤️ Ansh dashore</p>
+    </footer>
+
+</body>
+
+</html>
